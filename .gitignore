@@ -1,4 +1,7 @@
 .DS_Store*
 Icon?
 -
+build
+components
 gtfs-data
+node_modules

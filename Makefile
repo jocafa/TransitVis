@@ -1,3 +1,11 @@
+PROJECT=TransitVis
+DESCRIPTION=A GTFS Visualizer
+ORGANIZATION=jocafa
+
+STYLE_BUILDER=$(CURDIR)/node_modules/shoelace-stylus
+
+include ./node_modules/simple-stack-ui/tasks.mk
+
 GTFS_DATASETS=\
 	utah-transit-authority
 
